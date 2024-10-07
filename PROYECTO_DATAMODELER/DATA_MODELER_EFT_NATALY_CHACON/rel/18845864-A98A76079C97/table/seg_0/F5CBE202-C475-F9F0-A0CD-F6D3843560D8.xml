@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5CBE202-C475-F9F0-A0CD-F6D3843560D8" name="PERSONA">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>687E7559-8BE5-8AB2-3F08-A6E27535A258</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PERSONA" id="47065669-F01F-BDCE-FEDD-3E054B62BC8A">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>E80CB2E2-210B-7AD2-A167-9FDE9E242F79</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDENTIFICADOR_NACIONAL" id="3B8B440C-74B0-50EF-E18B-FA59CAB4995C">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>1E993D77-C920-3379-0DBD-7628CA5E24B7</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="C2EA6847-DAA8-0D1D-7549-9CA899135252">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>AD4C740B-039B-20C4-FFD5-18125D147EEE</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="E4BA0FEE-2385-E38E-9369-17A880E194E4">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>C457D9D5-F626-DAF5-199D-87F2E053BD22</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="870EF64D-65E8-0C93-0C37-4A3B407E0091">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>D69878C4-AB29-92F3-0650-85099D930136</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="872EEE05-14E7-249C-3091-3DD019BBD201">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>BCD0C747-5C15-11BE-0857-E449BA11E36F</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="BABF0EB8-BFF1-ADA3-3383-1BC7476DA72E">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>29AFC242-7711-0245-6D23-9569EFF6BD4C</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PAIS" id="C1BB1A52-9F57-4327-DE84-A78ED330CE53">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>4C3F6C62-8BA6-B47B-5302-5773070A8048</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A3BD7C7-0363-59DE-1E56-7BC2FD2F6DAB" referredColumn="74E7E63A-6943-388A-78A9-C781FE30993B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE724B3C-C95D-6946-24CC-CD00863166D6" name="PERSONA_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>36312ACE-D780-9720-5859-3AFB480B1B06</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47065669-F01F-BDCE-FEDD-3E054B62BC8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="615DFA58-B312-C92C-A20C-4B2A1F195905" name="PERSONA_PAIS_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>BECCE1DF-5945-2748-F3C0-B35FE93585F2</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1BB1A52-9F57-4327-DE84-A78ED330CE53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="618642AA-EEC3-F9A8-938F-A625BF953299" containerWithKeyObject="EE90A5D1-61F7-4809-2B41-97A5A24295FA" localFKIndex="FB1C7E0E-0B2B-C8CF-5013-37BB42DB0DC2" name="EQUIPAMIENTO_ACADEMIA_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>C838FFB4-7DB1-E3A6-D59A-B72AEBF1AA54</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<referredTableLongName>ACADEMIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CE44285A-A7F4-A0BA-B8E6-4BB03FA692F4</referredTableID>
+<keyObject>3FBC5A0E-93F5-FE73-D7DC-ACE312CB2E5F</keyObject>
+<referredKeyID>3FBC5A0E-93F5-FE73-D7DC-ACE312CB2E5F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ACADEMIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

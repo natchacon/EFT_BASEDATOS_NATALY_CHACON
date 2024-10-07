@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F8FCC8F-67B7-A66D-5553-F39CF88EDFA1" name="PROFESION_PERSONA">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONA_ID_PERSONA" id="E9607CD7-97EB-F0C3-4C4A-901141948F96">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEB174B5-4CE4-C994-F93E-1A1FC08AC880" referredColumn="47065669-F01F-BDCE-FEDD-3E054B62BC8A"/>
+</associations>
+</Column>
+<Column name="PROFESION_ID_PROFESION" id="7DDFB0D3-2861-D218-7C2B-7E21383979C4">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DD60253-B2BF-AE39-010F-335089B2E174" referredColumn="58BD1277-0899-00AB-F2D7-3AA089E2BFE0"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="949EEC01-EB91-4A4B-9135-19F66F5BB835">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>F4FD64B6-AB43-8C86-5061-058EB3AE4C89</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="FECHA_TITULACION" id="9C48E18D-0A03-B287-B476-035FC072A05F">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>05328394-B5CE-0A5F-743F-0B4E6D42AC7B</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1999AD63-0AFB-6EEB-D17A-615BDEF802AC" name="PROFESION_PERSONA_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9607CD7-97EB-F0C3-4C4A-901141948F96"/>
+<colUsage columnID="7DDFB0D3-2861-D218-7C2B-7E21383979C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC3A2E29-2CBC-9F17-1FAC-6A28C05C980B" name="PROFESION_PERSONA_PERSONA_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>5D167E89-4F93-321B-D6FA-FC95180B02D2</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9607CD7-97EB-F0C3-4C4A-901141948F96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7461C47-29DB-5FB6-8F8C-1F5E6BD3125E" name="PROFESION_PERSONA_PROFESION_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>5D167E89-4F93-321B-D6FA-FC95180B02D2</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DDFB0D3-2861-D218-7C2B-7E21383979C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

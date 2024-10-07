@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F840333-9DEF-65A6-BBBA-2E913D1057B1" name="INSUMO_TIPO_EQUIPAMIENTO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPO_EQUIPAMIENTO_ID_TIPO_EQUIPAMIENTO" id="B53BBED3-B6E2-04AA-DEF7-E51654E8138F">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8592166-AC3E-FC33-C04E-5CE997502A61" referredColumn="80D1082B-711F-C065-5FCB-9C1619895748"/>
+</associations>
+</Column>
+<Column name="TIPO_INSUMO_ID_TIPO_INSUMO" id="E4B260FC-9140-E310-98C4-A61EA4B1671C">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61C09176-EA0A-9F8A-E070-919EA6DD510D" referredColumn="FB4C1802-237D-6CE9-7137-2BDB44209A6D"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="71E46C13-A440-D216-91E2-7FB09A370275">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>AC6BFF8E-880A-1B94-33BF-90E70BB24B31</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="797671C8-98F3-C8B6-FFEC-A699C9A14673" name="INSUMO_TIPO_EQUIPAMIENTO_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B53BBED3-B6E2-04AA-DEF7-E51654E8138F"/>
+<colUsage columnID="E4B260FC-9140-E310-98C4-A61EA4B1671C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="061D5DC7-1E82-DA76-18DD-72C27A26BAFF" name="INSUMO_TIPO_EQUIPAMIENTO_TIPO_EQUIPAMIENTO_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>4B01832D-5D89-BA9C-2563-E3BDB2006ABF</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B53BBED3-B6E2-04AA-DEF7-E51654E8138F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9C05555-D3CB-80D0-3D24-3B8781D6DDEA" name="INSUMO_TIPO_EQUIPAMIENTO_TIPO_INSUMO_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-10-07 02:37:19 UTC</createdTime>
+<generatorID>4B01832D-5D89-BA9C-2563-E3BDB2006ABF</generatorID>
+<ownerDesignName>DATA_MODELER_EFT_NATALY_CHACON</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4B260FC-9140-E310-98C4-A61EA4B1671C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
